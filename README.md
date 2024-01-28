@@ -1,7 +1,7 @@
 # Bigram Model for Character Prediction
 
 ## Introduction
-This project implements a Bigram Model for predicting the next character in a sequence, based on the last character, using a list of names. It's designed to demonstrate the basics of probabilistic language models in natural language processing.
+This project implements a Bigram Model with and Without Neural Networks for predicting the next character in a sequence, based on the last character, using a list of names. It's designed to demonstrate the basics of probabilistic language models in natural language processing and Neural Networks.
 
 ## Features
 - Implementation of a Bigram Model using a 27x27 tensor array to store character occurrences.
@@ -12,3 +12,6 @@ This project implements a Bigram Model for predicting the next character in a se
 ## Dataset
 The model is trained on a `names.txt` file, which is a collection of names. This dataset is used to understand and learn the patterns in the sequence of characters in names.
 
+## Neural Network Approach
+- The neural network component is used to enhance the prediction accuracy of the Bigram Model.
+- The tensor `W` represents the weights of the neural network, which are adjusted during the training process based on the bigram occurrences in the training data.
